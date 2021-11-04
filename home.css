@@ -1,0 +1,155 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #a2b9bc;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin:  0 auto;
+}
+
+nav {
+	position: absolute;
+	top:  110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin:0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #034f84;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #8b6f47;
+	text-decoration: underline;
+}
+
+.banner {
+	width: 100%;
+}
+
+.principal{
+	background: #a2b9bc;
+	padding: 30px;
+}
+
+/*Títulos*/
+.titulo-principal {
+	padding-left: 10px;
+	text-align: center;
+	font-size: 45px;
+	margin: 0 0 1em;
+	clear: left;
+	color: #034f84;
+}
+
+.principal p {
+	font-size: 23px;
+	margin:  0 0 1em;
+	color: #034f84;
+}
+
+.principal strong {
+	font-weight: bold;
+	color: #8b6f47;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+/*Imagens dos tanques*/
+.tanque{
+	width: 33%;
+}
+
+.fish{
+	width: 33%;
+}
+
+.darktanque{
+	width: 33%;
+}
+
+.imagens {
+	width: 100%;
+	text-align: center;
+	padding: 3em 0;
+	background-color: #a2b9bc;
+}
+
+/*Lista de Benefícios*/
+.beneficios {
+	padding: 0.5em 0;
+	background: #a2b9bc;
+}
+.itens {
+	padding: 0.5em;
+	font-size: 25px;
+	text-align: center;
+	color: #034f84;
+}
+.itens:before {
+    content: "★";
+}
+
+
+/*Mapa*/
+.mapa {
+    padding: 3em 0;
+	background: #a2b9bc;
+}
+
+.mapa p {
+    margin: 0.5em;
+    text-align: center;
+	color: #034f84;
+	font-size: 25px;
+}
+
+
+/*Rodapé*/
+footer {
+	text-align: center;
+	background: #09578f;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/*Responsivo*/
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .beneficios, .mapa, .video {
+		width: auto;
+		text-align: center;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagens {
+		width: 100%;
+	}
+}

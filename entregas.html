@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Entregas - Casa da Tilápia</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="entregas.css">
+
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <header>
+            <div class="caixa">
+                <h1><img src="logo1.png"></h1>
+    
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="entregas.html">Entregas<a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required > 
+
+				<label for="email">Email</label>
+				<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<div>
+					<p>Como prefere o nosso contato?</p>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+					
+				</div>
+				
+				<div>
+					<p>Qual horário prefere ser atendido?</p>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+					</select>
+				</div>
+
+				<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</ipunt></label>
+
+				<input type="submit" value="Enviar formulário">
+			</form>
+		</main>
+
+        <footer>
+			<img src="logo1.png">
+			<p class="copyright">&copy;Copyright - Casa da Tilápia - 2020</p>
+		</footer>
+    </body>
+</html>  
