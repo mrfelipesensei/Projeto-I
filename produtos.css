@@ -70,14 +70,14 @@ nav a:hover {
 }
 
 .produto-descricao {
-	font-size: 20px;
+	font-size: 25px;
     color: #034f84;
     font-weight: bolder;
 
 }
 
 .produto-preco	{
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: bold;
 	margin-top: 10px;
 	color: #03426e;

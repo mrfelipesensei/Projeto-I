@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .principal p {
-	font-size: 23px;
+	font-size: 25px;
 	margin:  0 0 1em;
 	color: #034f84;
 }
@@ -98,7 +98,7 @@ nav a:hover {
 }
 .itens {
 	padding: 0.5em;
-	font-size: 25px;
+	font-size: 30px;
 	text-align: center;
 	color: #034f84;
 }
@@ -120,6 +120,34 @@ nav a:hover {
 	font-size: 25px;
 }
 
+/*Tabela Funcionamento*/
+.tabela {
+	background-color: #a2b9bc;
+}
+.tabela p {
+	text-align: center;
+	color: #034f84;
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background: white;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
 
 /*Rodapé*/
 footer {

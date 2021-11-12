@@ -39,13 +39,51 @@
 				<input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
 				<div>
+					<p>Pedido</p>
+					<label class="checkbox"><input type="checkbox">Tilápia Inteira Congelada 1kg</label>
+
+					<section class="tabelita">
+						<p>Quantidade</p>
+						<select>
+							<option>5 unidades</option>
+							<option>10 unidades</option>
+							<option>15 unidades</option>
+							<option>20 unidades</option>
+						</select>
+					</section>
+
+					<label class="checkbox"><input type="checkbox">Filé de Tilápia Congelada 1kg</label>
+
+					<section class="tabelita">
+						<p>Quantidade</p>
+						<select>
+							<option>5 unidades</option>
+							<option>10 unidades</option>
+							<option>15 unidades</option>
+							<option>20 unidades</option>
+						</select>
+					</section>
+
+					<label class="checkbox"><input type="checkbox">Tilápia Enlatada em Óleo 1/2kg</label>
+
+					<section class="tabelita">
+						<p>Quantidade</p>
+						<select>
+							<option>5 unidades</option>
+							<option>10 unidades</option>
+							<option>15 unidades</option>
+							<option>20 unidades</option>
+						</select>
+					</section>
+				</div>
+
+				<div>
 					<p>Como prefere o nosso contato?</p>
 					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 					
 					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
-					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
-					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>	
 				</div>
 				
 				<div>
@@ -56,9 +94,9 @@
 					</select>
 				</div>
 
-				<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</ipunt></label>
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</ipunt></label>
 
-				<input type="submit" value="Enviar formulário">
+				<input type="submit" value="Enviar Pedido" class="enviar">
 			</form>
 		</main>
 
